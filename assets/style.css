@@ -1,10 +1,17 @@
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    background-color: cadetblue;
 }
 nav {
     display: flex;
-    flex-direction: column-reverse;
-
+    flex-direction: row;
+}
+.hero {
+    display: flex;
+    justify-content: right;
+}
+div {
+    display: flex;
+    justify-content: space-between;
 }
