@@ -3,15 +3,21 @@ header {
     justify-content: space-between;
     background-color: cadetblue;
 }
+h1 {
+    background-color: cornflowerblue;
+    padding-left: 40px;
+}
 nav {
-    display: flex;
-    flex-direction: row;
 }
-.hero {
+
+/* adjust comment to the end, bottom*/
+hero {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    padding-top: 200px;
 }
-div {
+.About Me {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
+/*link cont for the header*/
