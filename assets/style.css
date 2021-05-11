@@ -16,6 +16,7 @@ hero {
     display: flex;
     justify-content: flex-end;
     margin: 200px 0 0 0;
+    background-image: 
 }
 hero h3 {
     background-color: cornflowerblue;
@@ -27,21 +28,24 @@ section {
 }
 .about-me {
     border-right: solid;
-    padding: 20px 30px 20px 0;
+    padding: 20px 30px 20px 5px;
 }
 p {
     margin: 20px 150px 0 150px
     }
 .work {
     border-right: solid;
-    padding: 100px 30px 100px 0;
+    padding: 100px 30px 100px 10px;
 }
 .contact {
     border-right: solid;
-    padding: 20px 10px 20px 0;
+    padding: 20px 10px 20px 10px;
+}
+.links {
+    padding: 50px 0 0 0;
 }
 .resume {
     border-right: solid;
-    padding: 20px 10px 20px 0;
+    padding: 20px 10px 20px 10px;
 }
 /*link cont for the header*/
