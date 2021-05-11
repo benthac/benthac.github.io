@@ -5,25 +5,43 @@ header {
 }
 header h1 {
     background-color: cornflowerblue;
-    padding-left: 40px;
+    padding: 0 0 0 40px;
 }
 header nav {
-    display: flex;
-    border: solid;
+    font-size: large;
+    margin: 30px 40px 0 0;
 }
-
 /* adjust comment to the end, bottom*/
 hero {
     display: flex;
     justify-content: flex-end;
-    padding-top: 200px;
+    margin: 200px 0 0 0;
 }
 hero h3 {
     background-color: cornflowerblue;
-    margin-left: 20px;
+    margin: 0 0 20px 50px;
 }
-.About Me {
+section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+.about-me {
+    border-right: solid;
+    padding: 20px 30px 20px 0;
+}
+p {
+    margin: 20px 150px 0 150px
+    }
+.work {
+    border-right: solid;
+    padding: 100px 30px 100px 0;
+}
+.contact {
+    border-right: solid;
+    padding: 20px 10px 20px 0;
+}
+.resume {
+    border-right: solid;
+    padding: 20px 10px 20px 0;
 }
 /*link cont for the header*/
