@@ -15,8 +15,8 @@ header nav {
 hero {
     display: flex;
     justify-content: flex-end;
-    margin: 200px 0 0 0;
-    background-image: 
+    padding: 200px 0 0 0;
+    background-image: url(./images/planet.jpg)
 }
 hero h3 {
     background-color: cornflowerblue;
