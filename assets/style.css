@@ -16,7 +16,7 @@ hero {
     display: flex;
     justify-content: flex-end;
     padding: 200px 0 0 0;
-    background-image: url(./images/planet.jpg)
+    background-image: url(./images/forest.jpg)
 }
 hero h3 {
     background-color: cornflowerblue;
@@ -26,25 +26,36 @@ section {
     display: flex;
     justify-content: space-between;
 }
-.about-me {
+#about-me {
     border-right: solid;
     padding: 20px 30px 20px 5px;
 }
 p {
     margin: 20px 150px 0 150px
     }
-.work {
+#work {
     border-right: solid;
     padding: 100px 30px 100px 10px;
 }
-.contact {
+.images {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+
+}
+.surf-report {
+    border: solid;
+    padding: 0 0 200px 400px;
+    background-image: url(./images/laptop.jpg);
+}
+#contact {
     border-right: solid;
     padding: 20px 10px 20px 10px;
 }
 .links {
     padding: 50px 0 0 0;
 }
-.resume {
+#resume {
     border-right: solid;
     padding: 20px 10px 20px 10px;
 }
